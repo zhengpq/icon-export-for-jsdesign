@@ -1,0 +1,11 @@
+{
+  "name": "test",
+  "id": "1114448340267527133",
+  "api": "1.0.0",
+  "main": "code.js",
+  "ui": "ui.html",
+  "menu": [
+    {"name": "svg to dataurl", "command": "dataurl"},
+    {"name": "svg to base64", "command": "base64"}
+  ]
+}

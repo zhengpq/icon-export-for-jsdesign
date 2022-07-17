@@ -1,0 +1,25 @@
+{
+  "name": "icon-transfor",
+  "version": "1.0.0",
+  "description": "一个将 svg 图标导出成 dataurl 或者 base64 数据格式的插件",
+  "main": "code.js",
+  "scripts": {
+    "build": "npx webpack --mode=production",
+    "dev": "npx webpack --mode=development --watch"
+  },
+  "author": "",
+  "license": "",
+  "devDependencies": {
+    "@jsdesigndeveloper/plugin-typings": "^1.0.3",
+    "@types/node": "^18.0.5",
+    "@types/svg64": "^1.1.0",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "svg64": "^1.1.0",
+    "ts-loader": "^9.3.1",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0"
+  }
+}
